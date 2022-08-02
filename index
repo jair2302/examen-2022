@@ -1,0 +1,184 @@
+<!DOCTYPE html>>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>punoshop</title>
+    <link rel="stylesheet" href="./dev/Css/Style.css">
+    <link rel="shortcut icon" href="./public/assets/img/vestido-rojo.webp" type="image/x-icon">
+    
+
+</head>
+<body>
+
+    <!--Cabezera-->
+    <section class="header">       
+        
+        <!-- Barra de navegacion -->
+        <nav>
+            <a href="./dev/Views/index.html" class="logo_principal">punoshop</a>
+
+
+            <ul class="navigation">
+                <li>
+                    <a href="#hombres y mujeres" class="logo" ><h3>hombre y mujeres</h3></a>
+                </li>
+                <li>
+                    <a href="#niños" class="logo"><h3>niños</h3></a>
+                </li>
+                <li>
+                    <a href="#deportes" class="logo"><h3>deportes</h3></a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div id="hombres y mujeres">
+          
+        </div>
+            
+    </section>
+ 
+    <section class="banner" id="banner">
+        <img src="./public/assets/img/fondo.webp" class="fitBg" alt="Imagen de fondo">
+        <div class="content">
+            <h1>punoshop</h1>
+        </div>
+    </section>
+
+   
+    <section class="products" id="products">
+        <h2 class="beauty">Que Deseas Comprar?</h2>
+        <h4>ropa de mujer</h4>
+        
+         
+            <div class="card">
+                <div class="imgBx">
+                    <img src="./public/assets/img/card-1.webp" alt="Imagen ropa de mujer">
+                </div>
+                <div class="contentcard">
+                    <h3>chompas</h3>
+                    <p>
+                        <i>Precio : 80 soles </i>  <br>
+                        <i>Estado : Nuevo</i>  <br>
+                        <i>Disponible : Blanco   </i>
+                    </p>
+                    <a href= "="_blank" class="button">Comprar</a>
+                </div>
+            </div>
+
+           
+            <div class="card">
+                <div class="imgBx">
+                    <img src="./public/assets/img/card-2.webp" alt="Imagen ropa de hombre">
+                </div>
+                <div class="contentcard">
+                    <h3>ropa de hombre </h3>
+                    <p>
+                        <i>Precio : 90 soles  </i><br>
+                        <i>Estado : Nuevo  </i><br>
+                        <i>Disponible : Consultar  </i> 
+                    </p>
+                    <a href="=" target="_blank" class="button">Comprar</a>
+                </div>
+            </div>
+
+             
+            <div class="card">
+                <div class="imgBx">
+                    <img src="./public/assets/img/card-3.webp" alt=" ropa de niño">
+                </div>
+                <div class="contentcard">
+                    <h3>ropa de niño</h3>
+                    <p>
+                        <i>Precio : 60 soles </i><br>
+                        <i>Estado : Nuevo  </i><br>
+                        <i>Disponible : Consultar </i> 
+                    </p>
+                    <a href="="  target="_blank" class="button">Comprar</a>
+                </div>
+            </div>
+
+            
+            <div class="card">
+                <div class="imgBx">
+                    <img src="./public/assets/img/card-4.webp" alt="Imagen zapatos">
+                </div>
+                <div class="contentcard">
+                    <h3>zapatos para niños</h3>
+                    <p>
+                        <i>Precio : 90 soles  </i><br>
+                        <i>Estado : Nuevo  </i><br>
+                        <i>Disponible : Consultar </i> 
+                    </p>
+                    <a href="=" target="_blank" class="button">Comprar</a>
+                </div>
+            </div>
+
+             
+            <div class="card">
+                <div class="imgBx">
+                    <img src="./public/assets/img/card-5.webp" alt="Imagen buzo">
+                </div>
+                <div class="contentcard">
+                    <h3> buzo</h3>
+                    <p>
+                        <i>Precio : 70 soles  </i><br>
+                        <i>Estado : Nuevo  </i><br>
+                        <i>Disponible : Consultar </i> 
+                    </p>
+                    <a href="="  target="_blank" class="button">Comprar</a>
+                </div>
+            </div>
+
+            
+            <div class="card">
+                <div class="imgBx">
+                    <img src="./public/assets/img/card-6.webp" alt="Imagen Cardigan de Hilo con Rayas">
+                </div>
+                <div class="contentcard">
+                    <h3> </h3>
+                    <p>
+                        <i>Precio : 85 Bs  </i><br>
+                        <i>Estado : Nuevo  </i><br>
+                        <i>Disponible : Consultar </i> 
+                    </p>
+                    <a href="="  target="_blank" class="button">Comprar</a>
+                </div>
+            </div>
+
+            <!-- Septima Tarjeta -->
+            <div class="card">
+                <div class="imgBx">
+                    <img src="./public/assets/img/card-7.webp" alt="Imagen camisetas">
+                </div>
+                <div class="contentcard">
+                    <h3>camisetas</h3>
+                    <p>
+                        <i>Precio : 120 soles  </i><br>
+                        <i>Estado : Nuevo  </i><br>
+                        <i>Disponible : Consultar </i> 
+                    </p>
+                    <a href="="  target="_blank" class="button">Comprar</a>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!--Footer-->
+    <section class="footer" id="links">
+        <ul class="sci">
+            <li>
+                <a href="https://www.facebook.com/Ropa-para-Mujer-101367448736844" target="_blank">
+                    <img src="./public/assets/img/facebook.webp" alt="Imagen Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/jair2302" target="_blank">
+                    <img src="./public/assets/img/github.webp" alt="Imagen Github">
+                </a>
+            </li>
+              
+    </section>
+</body>
+</html>
